@@ -1,0 +1,74 @@
+body {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 22px 70px;
+  background: #fff8e6;
+  color: #1f2a37;
+  font-family: "Quicksand", "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 1.75;
+}
+
+h1, h2 {
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-weight: 700;
+  color: #0e6a6b;
+}
+
+h1 { font-size: 44px; line-height: 1.1; margin: 0 0 8px; }
+h2 { font-size: 28px; margin: 56px 0 12px; }
+
+.hi { font-size: 21px; font-weight: 700; margin: 0 0 30px; }
+
+p { margin: 0 0 16px; }
+
+a { color: #0e6a6b; font-weight: 700; }
+a:hover { background: #ffc93c; }
+
+.covers {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 22px;
+  margin: 26px 0 8px;
+}
+
+.covers figure { margin: 0; }
+
+.covers img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  background: #f0d78a;
+}
+
+figcaption {
+  font-size: 14.5px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #4a5568;
+  margin-top: 9px;
+}
+
+.photo {
+  margin: 30px auto;
+  max-width: 240px;
+  text-align: center;
+}
+
+.photo img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  background: #f0d78a;
+}
+
+hr {
+  border: 0;
+  border-top: 2px dashed #0e6a6b;
+  margin: 56px 0 24px;
+  opacity: 0.5;
+}
+
+.source-note { margin-top: 30px; font-size: 13px; font-weight: 600; color: #4a5568; text-align: center; }
